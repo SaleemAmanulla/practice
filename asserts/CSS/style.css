@@ -1,0 +1,347 @@
+body{
+    background-image:url(/asserts/images/backgrount_practice.jpg) ;
+    background-position: center;
+    background-repeat:repeat;
+    height: 64vh;
+    background-size: cover;
+    
+}
+
+.navibar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.navdiv{
+   margin-left: 200px;
+    display: inline;
+
+}
+li{
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+
+}
+h2{
+    display: inline;
+    color:#111;
+    float: inline-start;
+}
+
+li a  {
+    color:black;
+    font-size:larger;
+    text-align:center;
+
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: orange;
+    border-radius: 10px;
+}
+
+.col{
+    display: inline;
+}
+
+.active {
+    background-color: orange;
+    padding: 10px;
+    color:white;
+    border-radius: 10px;
+}
+
+.active:hover{
+    background-color: orangeenrod;
+    color: black;
+}
+
+.navsubmit{
+    float: right ;
+    border: 0ch;
+    font-size: 20px;
+    background-color: unset;
+
+}
+.navsubmit:hover{
+   background-color: rgba(29, 7, 7, 0.18);
+   border-radius: 40%;
+}
+.navsearch{
+    float: right;
+    padding: 5px ;
+    font-size: 15px;
+    border: 0ch;
+    background-color: unset;
+    border-bottom: 4px solid rgb(255, 255, 255);
+}
+
+::placeholder { 
+    color:black;
+   
+  }
+/* Home Section */
+
+.homerow{
+    height: 300px;
+    width: 300px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+    background-image:url(/asserts/images/backgrount_practice.jpg) ;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 100vh;
+    background-size:cover;
+
+}
+
+.content h1{
+    color: aliceblue;
+    font-size: 6vh;
+}
+.content p{
+    color: #dfe0e2;
+}
+.hr1{
+    height:2px;
+    width:150px;
+    border-width:1px;
+    color:white;
+    background-color:white;
+    float: left;
+}
+
+/* .homebtn{
+    display: flex;
+    justify-content: space-evenly;
+} */
+.read{
+    border-radius: 15px;
+    font-size: medium;
+    background-color: aliceblue;
+    border: unset;
+    margin-right: 20px;
+}
+
+.read:hover{
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(1.5px);
+
+}
+.blogs{
+    border-radius: 15px;
+    font-size: medium;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(8.5px);
+    border: unset;
+}
+.blogs:hover{
+    background-color: white;
+    color: grey;
+}
+
+/* home right */
+
+.rowright{
+    float: right;
+    height: 220px;
+    width: 250px;
+    background-color: rgba(255, 255, 255, 0.35);
+    backdrop-filter: blur(1.5px);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.row3rd{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.rightbottom{
+    height:40px;
+    width: 290px;
+    padding-bottom: 20px;
+    background-color: orange;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.rightbottom:hover{
+    background-color:orangered;
+}
+.rightbottom h3{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+/* COntact us */
+
+.contactus{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+
+    background-image:url(/asserts/images/warsaw.jpg) ;
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 98vh;
+    background-size:cover;
+
+}
+
+.crow_left{
+    height: 300px;
+    width: 400px;
+    background-color:#fff5e7b5;
+    border-radius: 15px;
+}
+
+.crow_right{
+    height: 300px;
+    width: 700px;
+    background-color:#fff5e7b5;
+    border-radius: 15px;
+}
+
+.contactform{
+    display: inline;
+}
+
+.consub{
+    color: white;
+    background-color: orange;
+    height: 40px;
+    width: 80px;
+    font-weight: bolder;
+    font-size: large;
+    margin-left: 30px;
+    border: 0ch;
+}
+
+.consub:hover{
+    background-color: orangered;
+}
+
+/* Proloader */
+
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    height:100vh;
+    background:radial-gradient(#fff, #fff) ;
+}
+.wrapper{
+    width:200px;
+    height:60px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle{
+    width:20px;
+    height:20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #8e44ad;
+    left:15%;
+    transform-origin: 50%;
+    animation: circle .5s alternate infinite ease;
+}
+
+@keyframes circle{
+    0%{
+        top:60px;
+        height:5px;
+        border-radius: 50px 50px 25px 25px;
+        transform: scaleX(1.7);
+    }
+    40%{
+        height:20px;
+        border-radius: 50%;
+        transform: scaleX(1);
+    }
+    100%{
+        top:0%;
+    }
+}
+.circle:nth-child(2){
+    left:45%;
+    animation-delay: .2s;
+}
+.circle:nth-child(3){
+    left:auto;
+    right:15%;
+    animation-delay: .3s;
+}
+.shadow{
+    width:20px;
+    height:4px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.5);
+    position: absolute;
+    top:62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left:15%;
+    filter: blur(1px);
+    animation: shadow .5s alternate infinite ease;
+}
+
+@keyframes shadow{
+    0%{
+        transform: scaleX(1.5);
+    }
+    40%{
+        transform: scaleX(1);
+        opacity: .7;
+    }
+    100%{
+        transform: scaleX(.2);
+        opacity: .4;
+    }
+}
+.shadow:nth-child(4){
+    left: 45%;
+    animation-delay: .2s
+}
+.shadow:nth-child(5){
+    left:auto;
+    right:15%;
+    animation-delay: .3s;
+}
+.wrapper span{
+    position: absolute;
+    top:75px;
+    font-family: 'Lato';
+    font-size: 20px;
+    letter-spacing: 12px;
+    color: #ffffff;
+    left:15%;
+}

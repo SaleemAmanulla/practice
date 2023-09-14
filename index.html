@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Site</title>
+    <link rel="stylesheet" href="./asserts/CSS/style.css">
+    
+</head>
+<body>
+   
+    <nav class="navibar">
+        <ul >
+            <div class="container">
+                <div class="row">
+                    <div class="col col-2">
+                        <li><h2 >Travel Agency</h2></li>
+                    </div>
+                    
+                    <div class="navdiv col col-6" >
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#contactus" >Contact US</a></li>
+                        <li><a href="#feature" >Feature</a></li>
+                        <li><a href="#aboutus" >About US</a></li>   
+                    </div>
+
+                    <div class="col col-4">
+                        <button class="navsubmit"  type="submit">&#128269</button>
+                        <input class="navsearch"  type="text" placeholder="Search..">
+                    </div>
+                </div>
+            </div> 
+        </ul>
+    </nav>
+    <!-- Home Section -->
+    <div class="content" id="home">
+        
+            <div class="homerow">
+                <hr class="hr1">
+
+                <h1>
+                    DISCOVERING  THE WORLD.
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Quas quo nihil debitis voluptatibus doloremque! Ipsam per
+                </p>
+                <div class="homebtn">
+                    <button class="read"> read more </button>
+                    <button class="blogs"> View Our Blogs</button>
+                </div>
+            </div>
+           
+            <div class="homerow row3rd">
+                <div class="rowright">
+                    <h4>
+                        Where Do you want to go?
+                    </h4>
+                    <h4>Destination :</h4>
+                    <form action="">
+                        <label for="location" class="formright">City/country:</label>
+                        <select name="location" id="location">
+                          <option value="Select">Select</option>
+                          <option value="India">India</option>
+                          <option value="US">US</option>
+                          <option value="Russia">Russia</option>
+                          <option value="Middle_East">Middle East</option>
+                        </select>
+                      </form>
+                    <h4>Departure Date :</h4>
+                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+                    &nbsp&nbsp&nbsp&nbsp&nbsp
+                     <input type="date" name="Date" id="Date">
+                    
+                </div>
+                <div class="rightbottom">
+                        <h3>Check Travel Package</h3>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- contact us section -->
+    <div class="contactus">
+        <div class="formcontact crow_left">
+            <br>
+            <table style="width: 100%;">
+                <tr>
+                    <th>First Name <span style="color: red;">*</span></th>
+                    <th>Last Name </th>
+                </tr>
+                <tr>
+                    <td>
+                        <center><input style="width: 70%; height: 4vh;" type="text" name="First_name" id=""></center>                     </td>
+                    <td>
+                        <center> <input style="width: 70%; height: 4vh;" type="text" name="First_name" id=""></center>
+                    </td>
+                </tr>
+            </table>
+            <table style="width: 100%;">
+                <tr>
+                    <th style="float: left; margin-left: 30px;">Email <span style="color: red;">*</span></th>
+                </tr>
+                <tr>
+                    <td>  <center> <input style="width: 85%; height: 4vh;" type="text" name="Email" id=""></center></td>
+                </tr>
+            </table>
+            <table style="width: 100%;">
+                <tr>
+                    <th>What Can We help You With?</th>
+                </tr>
+                <tr>
+                    <td><center> <textarea name="TextArea" id="" cols="40" rows="4" ">Type Your Message... </textarea> </center></td>
+                </tr>
+            </table>
+           <button type="submit" class="consub">submit</button>
+
+        </div>
+        <div class="contactcontent crow_right">
+            <br>
+            <h1 style="color: #111; margin-left: 30px;">Contact us</h1>
+            <br>
+            <h3 style="width: 85%; margin-left: 30px;">Need To get in touch with us? Either fill out the form With your inquiry
+                 or find the <a href="mailto:saleemmohammed875@gmail.com">department email</a> you'd like to Contact below.</h3>
+        </div>
+    </div>
+   
+    
+    <div class="wrapper" id="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>               
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <span>Loading</span>
+    </div>	
+   
+    <script>
+        var loader = document.getElementById("wrapper"); 
+
+        window.addEventListener("load",function(){
+            loader.style.display="none"; 
+        })
+    </script>
+</body>
+</html>
